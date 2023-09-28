@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+<div class="container-main container-login">
+  <div class="wrap-main wrap-login">
+
+            <span class="title-main">
+                Log Reports
+            </span>
+
+    <table class='table'>
+      <thead>
+    <tr>
+      <th>LogId</th>
+      <th>Type</th>
+      <th>Severity</th>
+      <th>Date</th>
+      <th>UserId</th>
+      <th>Message</th>
+    </tr>
+      </thead>
+    <tbody>
+      <tr *ngFor="let log of logs">
+        <td *ngFor="let cell of log">{{cell}}</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <nav class="pagination" id = "page-navigation">
+      <button class="pages" *ngIf = "showPrevious" id = "prev-button" (click) = "goToPreviousPage()">Previous</button>
+      <button class="pages" *ngIf = "showNext" id = "next-button" (click) = "goToNextPage()">Next</button>
+    </nav>
+
+
+    <div class="wrap-button">
+
+      <a routerLink="/addPage" routerLinkActive="active">
+        <button class="button">Add Log</button>
+      </a>
+    </div>
+
+    <div class="wrap-button">
+      <a routerLink="/updatePage" routerLinkActive="active">
+        <button class="button">Update Log</button>
+      </a>
+    </div>
+
+    <div class="wrap-button">
+      <a routerLink="/deletePage" routerLinkActive="active">
+        <button class="button">Delete Log</button>
+      </a>
+    </div>
+
+    <div class="wrap-button">
+      <a routerLink="/filterPage" routerLinkActive="active">
+        <button class="button">Filter Logs</button>
+      </a>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

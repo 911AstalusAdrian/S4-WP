@@ -1,0 +1,22 @@
+.runner{
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    top: 0px;
+    left: 0px;
+    transition: 3s;
+    transition-timing-function: linear;
+}
+
+.runner:hover{
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%, -100%);
+    position: absolute;
+    background-color: blue;
+    right: 0px;
+    bottom: 0px;
+}

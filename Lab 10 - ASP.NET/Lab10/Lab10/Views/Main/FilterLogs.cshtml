@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FilterStudents</title>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script>
+                    $(document).ready(function(){
+                        $("#button").click(function() {
+                            $.get("/Main/GetLogsFromUser", {user_id : $("#user_id").val()},
+                                function(data,status) {
+                                    $("#maindiv").html(data);
+                            });
+                        });
+                    });
+    </script>
+</head>
+<body>
+    GroupID: <input type="text" id="user_id" /><br />
+    <input id="button" type="button" value="get logs" />
+    Lista studentilor din grupa:
+    <div id="maindiv"></div><br />
+</body>
+</html>

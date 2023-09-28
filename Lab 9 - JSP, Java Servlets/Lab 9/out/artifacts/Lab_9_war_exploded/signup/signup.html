@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="actionForm"></div>
+    <h1>Sign Up</h1>
+    <form action="SignupController" method="post" enctype="multipart/form-data">
+        <label for="email">Email:</label><BR>
+        <input type="email" name="email" id="email"> <BR>
+        <label for="name">Name:</label><BR>
+        <input type="text" name="name" id="name"> <BR>
+        <label for="pass">Password:</label><BR>
+        <input type="password" name="password" id="pass"> <BR>
+        <label for="passConf">Confirm Password:</label><BR>
+        <input type="password" name="password_confirm" id="passConf"> <BR>
+        <label for="age">Age:</label><BR>
+        <input type="number" name="age" id="age"> <BR>
+        <!--    Enter picture: <input type="text" name="picture"> <BR>-->
+        <label for="hometown">Home town:</label><BR>
+        <input type="text" name="hometown" id="hometown"> <BR>
+        <input id="actionButton" type="submit" value="Signup"/>
+    </form>
+</div>
+
+</body></html>

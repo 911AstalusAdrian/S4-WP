@@ -1,0 +1,169 @@
+.navbar{
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    height: 115%;
+    width: 80px;
+    background-color: whitesmoke;
+    color:#778085;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar li{
+    text-align: center;
+    margin: 10px;
+}
+
+.navbar li a{
+    color:#778085;
+    text-decoration: none;
+}
+
+.navbar hr{
+    background-color: #e7e7ef;
+    margin: 15px 10px 10px 10px;
+    
+}
+
+#logo{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#non-logo{
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    height: 88.9%;
+    width: 330px;
+    padding: 30px;
+    padding-top: 90px;
+    background-color: #101f29;
+    color: white;
+    font-family: "Montserrat", "Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 17px;
+}
+
+.crafty{
+    margin: 15px 0px;
+    margin-top: 50px;
+    border-radius: 12px;
+    width: auto;
+    height: 85px;
+    background-image: linear-gradient(to right, rgba(253,81,107,255), rgba(255,125,148,255));
+}
+
+#arrow{
+    position: absolute;
+    margin-top: 22px;
+    left: 75%;
+}
+
+#product{
+    position: absolute;
+    margin-top: 17px;
+    left: 12%;
+}
+
+.aunty{
+    margin: 15px 0px;
+    border-radius: 12px;
+    width: auto;
+    height: 85px;
+    background-image: linear-gradient(to right, rgba(104,80,165,255), rgba(199,129,215,255));
+}
+
+.vodka{
+    margin: 15px 0px;
+    border-radius: 12px;
+    width: auto;
+    height: 85px;
+    background-image: linear-gradient(to right, rgba(210,22,72,255), rgba(252,100,143,255));
+}
+
+.navigation{
+    position: absolute;
+    height: 115%;
+    width: 95.7%;
+    top: 0;
+    left: 80px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 96.1%;
+    margin-left: 4%;
+    padding-bottom: 10px;
+    background-color: #101f29;
+    font-family: "Montserrat", "Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    color:#778085;
+}
+
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer h3{
+    color: white;
+}
+
+#first{
+    padding-left: 0;
+}
+
+.footer li{
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.footer li a{
+    color: #778085;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.right-side{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: 20%;
+    height: 80px;
+    font-family: "Montserrat", "Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    text-align: center;
+}
+
+.right-side ul{
+    margin-left: 70px;
+    padding: 0%;
+    margin-top: -10px;
+}
+
+.image{
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+}
